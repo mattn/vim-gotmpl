@@ -1,3 +1,3 @@
 augroup filetypedetect
-  au! BufRead,BufNewFile *.tmpl setfiletype gohtmltmpl
+  au! BufRead,BufNewFile *.tmpl,*.gotmpl setfiletype gohtmltmpl
 augroup END
